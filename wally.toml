@@ -8,3 +8,5 @@ realm = "shared"
 
 [server-dependencies]
 cmdr = "evaera/cmdr@1.12.0"
+profilestore = "lm-loleris/profilestore@1.0.3"
+promise = "evaera/promise@4.0.0"
