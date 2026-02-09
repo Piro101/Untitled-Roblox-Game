@@ -5,12 +5,12 @@ Built with [Rojo](https://github.com/rojo-rbx/rojo), [ProfileStore](https://gith
 
 ## Build
 
-First, ensure rojo, rokit, and optionally wally-package-types are installed
+First, ensure [Rojo](https://github.com/rojo-rbx/rojo), [rokit](https://github.com/rojo-rbx/rokit), and optionally [wally-package-types](https://crates.io/crates/wally-package-types) are installed
 
 ```bash
 rokit install
 wally install
-rojo sourcemap --output sourcemap.json --include-non-scripts # Optional, used for proper lsp support
-wally-package-types --sourcemap sourcemap.json Packages/ ServerPackages/ # Optional, used for proper lsp support
+rojo sourcemap --output sourcemap.json --include-non-scripts # Optional
+wally-package-types --sourcemap sourcemap.json Packages/ ServerPackages/ # Optional
 rojo serve
 ```
