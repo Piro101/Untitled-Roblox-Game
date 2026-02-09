@@ -5,7 +5,7 @@ Built with [Rojo](https://github.com/rojo-rbx/rojo), [ProfileStore](https://gith
 
 ## Build
 
-First, ensure [Rojo](https://github.com/rojo-rbx/rojo), [rokit](https://github.com/rojo-rbx/rokit), and optionally [wally-package-types](https://crates.io/crates/wally-package-types) are installed
+First, ensure rojo, rokit, and optionally wally-package-types are installed
 
 ```bash
 rokit install
