@@ -10,7 +10,7 @@ First, ensure [Rojo](https://github.com/rojo-rbx/rojo), [rokit](https://github.c
 ```bash
 rokit install
 wally install
-rojo sourcemap --output sourcemap.json --include-non-scripts # Optional
-wally-package-types --sourcemap sourcemap.json Packages/ ServerPackages/ # Optional
+rojo sourcemap --output sourcemap.json --include-non-scripts # Optional, used for proper lsp support
+wally-package-types --sourcemap sourcemap.json Packages/ ServerPackages/ # Optional, used for proper lsp support
 rojo serve
 ```
