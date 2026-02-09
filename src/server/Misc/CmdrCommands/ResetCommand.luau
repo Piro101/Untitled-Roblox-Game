@@ -8,6 +8,7 @@ return {
 			Type = "player",
 			Name = "target",
 			Description = "The target",
+			Optional = true,
 		},
 	},
 }

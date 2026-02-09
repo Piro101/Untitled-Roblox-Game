@@ -1,6 +1,9 @@
 local StateManager = require(game:GetService("ReplicatedStorage").SharedManagers.StateManager)
 
-return function(_, target: Player)
+return function(ctx, target: Player?)
+	target = (target or ctx.Executor) :: Player
+	assert(target, "How did this happen?")
+
 	local Character = target.Character
 	if Character and Character:FindFirstChild("HumanoidRootPart") then
 		local position = Character:FindFirstChild("HumanoidRootPart").CFrame

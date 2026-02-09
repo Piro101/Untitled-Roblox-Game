@@ -14,5 +14,5 @@ StateManager.SetState(LocalPlayer.UserId, "WalkSpeed", 12)
 StateManager.SetState(LocalPlayer.UserId, "RunSpeed", 25)
 
 Cmdr:SetActivationKeys({ Enum.KeyCode.F2 })
-Cmdr:SetPlaceName("")
+Cmdr:SetPlaceName("Paradox")
 Cmdr:SetActivationUnlocksMouse(true)
