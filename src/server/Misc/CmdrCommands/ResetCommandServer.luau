@@ -2,7 +2,7 @@ local StateManager = require(game:GetService("ReplicatedStorage").SharedManagers
 
 return function(ctx, target: Player?)
 	target = (target or ctx.Executor) :: Player
-	assert(target, "How did this happen?")
+	assert(target, "[Cmdr::Reset] Somehow? Neither a target was provided nor was their an executor.")
 
 	local Character = target.Character
 	if Character and Character:FindFirstChild("HumanoidRootPart") then
